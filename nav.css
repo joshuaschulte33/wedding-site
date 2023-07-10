@@ -1,0 +1,23 @@
+/* Desktop styles */
+.background-image {
+    background-image: url('./assets/extra.png');
+}
+
+/* Mobile styles */
+@media screen and (max-width: 768px) {
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Add this line to center the items horizontally */
+  }
+  
+  .nav-links a {
+    margin: 4px 0;
+  }
+
+  .background-image {
+    background-image: url('./assets/wordless.png'); /* Different image for mobile */
+    background-size: contain;
+    height: auto;
+  }
+}
