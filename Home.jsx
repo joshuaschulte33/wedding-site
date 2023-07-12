@@ -15,7 +15,6 @@ const Home = () => {
   }, []);
 
   const handlePasswordSubmit = (password) => {
-    // Replace 'myPassword' with your actual password
     if (password === 'carmela') {
       setIsPasswordCorrect(true);
       localStorage.setItem('passwordEntered', 'true');
